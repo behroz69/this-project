@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class="color">hello jquery</p>
+    <button class="color1">color change</button>
+</body>
+</html>
+<script src="jquery/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function(){
+       
+        $(".color1").hover(function(){
+            $(".color").css("color","white")
+            $(".color").css("background","black")
+            
+        })
+        $(".color1").mouseleave(function(){
+            $(".color").css("color","black")
+            $(".color").css("background","white")
+            
+        })
+        $(".color1").hover(function(){
+        $(".color1").css("background","red")
+        $(".color1").css ("color","green")
+        $(".color1").css ("border","30px")
+        $(".color1").css ("border-radius","30px")
+        })
+        $(".color1").mouseleave(function(){
+            $(".color1").css("color","white")
+            $(".color1").css("background","black")
+            
+        })
+        $(".color1").css("background","yellow ")
+        $(".color1").css ("color","red")
+        $(".color1").css ("border","30px")
+        $(".color1").css ("border-radius","30px")
+
+        
+        
+       
+        // $(".color1").click(function(){
+        //     alert("hello jquery")
+            
+        // })
+
+    })
+</script>

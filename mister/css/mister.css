@@ -1,0 +1,36 @@
+
+
+.fa-home{
+
+    color: steelblue;
+}
+.fa-address-card{
+    color: steelblue;
+}
+.fa-info{
+    color: steelblue;
+}
+
+.fa-arrow-right{
+    color: steelblue;
+    float: right;
+    size: 200px;
+}
+.fa-arrow-left{
+color: steelblue;
+}
+button{
+    border-radius: 20px;
+    padding: 10px 10px;
+    float: right;
+}
+.fa-image{
+    color: steelblue;
+}
+.carousel-item{
+    height: auto;
+    
+}
+p{
+    color: black;
+}
